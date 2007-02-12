@@ -4,7 +4,7 @@
 %bcond_without	sdl	# SDL sound output
 #
 Summary:	Small SAP player for Linux
-Summary(pl.UTF-8):   Mały odtwarzacz SAP dla Linuksa
+Summary(pl.UTF-8):	Mały odtwarzacz SAP dla Linuksa
 Name:		mmsap
 # NOTE: check homepage and readme.txt before upgrade (1.4 is preview snapshot atm)
 Version:	1.3
@@ -33,7 +33,7 @@ autorstwa Adama Bieniasa.
 
 %package SDL
 Summary:	Small SAP player for Linux with SDL sound output
-Summary(pl.UTF-8):   Mały odtwarzacz SAP dla Linuksa z wyjściem dźwięku SDL
+Summary(pl.UTF-8):	Mały odtwarzacz SAP dla Linuksa z wyjściem dźwięku SDL
 Group:		X11/Applications/Sound
 Requires:	libsap >= 1.54
 
@@ -52,7 +52,7 @@ Ten pakiet zawiera program z wyjściem dźwięku SDL.
 
 %package alsa
 Summary:	Small SAP player for Linux with ALSA sound output
-Summary(pl.UTF-8):   Mały odtwarzacz SAP dla Linuksa z wyjściem dźwięku ALSA
+Summary(pl.UTF-8):	Mały odtwarzacz SAP dla Linuksa z wyjściem dźwięku ALSA
 Group:		X11/Applications/Sound
 Requires:	libsap >= 1.54
 
