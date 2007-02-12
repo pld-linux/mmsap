@@ -4,7 +4,7 @@
 %bcond_without	sdl	# SDL sound output
 #
 Summary:	Small SAP player for Linux
-Summary(pl):	Ma³y odtwarzacz SAP dla Linuksa
+Summary(pl.UTF-8):   MaÅ‚y odtwarzacz SAP dla Linuksa
 Name:		mmsap
 # NOTE: check homepage and readme.txt before upgrade (1.4 is preview snapshot atm)
 Version:	1.3
@@ -26,14 +26,14 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Small SAP player for Linux. It has GTKmm user interface and for
 decoding SAP tunes it uses "SAP library v. 1.54 by Adam Bienias".
 
-%description -l pl
-Ma³y odtwarzacz SAP dla Linuksa. Ma interfejs u¿ytkownika GTKmm, a do
-dekodowania melodii SAP wykorzystuje bibliotekê SAP w wersji 1.54
+%description -l pl.UTF-8
+MaÅ‚y odtwarzacz SAP dla Linuksa. Ma interfejs uÅ¼ytkownika GTKmm, a do
+dekodowania melodii SAP wykorzystuje bibliotekÄ™ SAP w wersji 1.54
 autorstwa Adama Bieniasa.
 
 %package SDL
 Summary:	Small SAP player for Linux with SDL sound output
-Summary(pl):	Ma³y odtwarzacz SAP dla Linuksa z wyj¶ciem d¼wiêku SDL
+Summary(pl.UTF-8):   MaÅ‚y odtwarzacz SAP dla Linuksa z wyjÅ›ciem dÅºwiÄ™ku SDL
 Group:		X11/Applications/Sound
 Requires:	libsap >= 1.54
 
@@ -43,16 +43,16 @@ decoding SAP tunes it uses "SAP library v. 1.54 by Adam Bienias".
 
 This package contains program with SDL sound output.
 
-%description SDL -l pl
-Ma³y odtwarzacz SAP dla Linuksa. Ma interfejs u¿ytkownika GTKmm, a do
-dekodowania melodii SAP wykorzystuje bibliotekê SAP w wersji 1.54
+%description SDL -l pl.UTF-8
+MaÅ‚y odtwarzacz SAP dla Linuksa. Ma interfejs uÅ¼ytkownika GTKmm, a do
+dekodowania melodii SAP wykorzystuje bibliotekÄ™ SAP w wersji 1.54
 autorstwa Adama Bieniasa.
 
-Ten pakiet zawiera program z wyj¶ciem d¼wiêku SDL.
+Ten pakiet zawiera program z wyjÅ›ciem dÅºwiÄ™ku SDL.
 
 %package alsa
 Summary:	Small SAP player for Linux with ALSA sound output
-Summary(pl):	Ma³y odtwarzacz SAP dla Linuksa z wyj¶ciem d¼wiêku ALSA
+Summary(pl.UTF-8):   MaÅ‚y odtwarzacz SAP dla Linuksa z wyjÅ›ciem dÅºwiÄ™ku ALSA
 Group:		X11/Applications/Sound
 Requires:	libsap >= 1.54
 
@@ -62,12 +62,12 @@ decoding SAP tunes it uses "SAP library v. 1.54 by Adam Bienias".
 
 This package contains program with ALSA sound output.
 
-%description alsa -l pl
-Ma³y odtwarzacz SAP dla Linuksa. Ma interfejs u¿ytkownika GTKmm, a do
-dekodowania melodii SAP wykorzystuje bibliotekê SAP w wersji 1.54
+%description alsa -l pl.UTF-8
+MaÅ‚y odtwarzacz SAP dla Linuksa. Ma interfejs uÅ¼ytkownika GTKmm, a do
+dekodowania melodii SAP wykorzystuje bibliotekÄ™ SAP w wersji 1.54
 autorstwa Adama Bieniasa.
 
-Ten pakiet zawiera program z wyj¶ciem d¼wiêku ALSA.
+Ten pakiet zawiera program z wyjÅ›ciem dÅºwiÄ™ku ALSA.
 
 %prep
 %setup -q
